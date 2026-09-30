@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  height: 56px;
+  background: #3f51b5;
+  color: #fff;
+
+  h1 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+
+    &.active {
+      opacity: 1;
+      font-weight: 600;
+    }
+  }
+}
